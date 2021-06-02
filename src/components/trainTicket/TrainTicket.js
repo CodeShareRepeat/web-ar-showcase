@@ -3,8 +3,8 @@ import ReactDOM, { render } from 'react-dom';
 import { AFrameRenderer, Marker } from 'react-web-ar';
 import journeySummaryImage from './journey-summary.png';
 
-export default function TrainTicket() {
-   
+class TrainTicket extends Component {
+    render() {
         return (
           <AFrameRenderer arToolKit={{ sourceType: 'webcam' }}>
             <Marker parameters={{
@@ -23,3 +23,8 @@ export default function TrainTicket() {
           </AFrameRenderer>
         );
     }
+}
+
+render(<TrainTicket />, document.getElementById('root'));
+
+export default TrainTicket;
