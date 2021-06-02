@@ -7,10 +7,10 @@ import Hiro from "./components/hiro/Hiro";
 function App() {
   return (
     <div className="App">
-      {/* <Earth/> */}
+      <Earth/>
 
      {/* <Hiro/> */}
-     <TrainTicket/>
+     {/* <TrainTicket/> */}
     </div>
   );
 }
