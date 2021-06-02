@@ -1,17 +1,20 @@
 {
-  "name": "web-ar-showcase",
+  "name": "web-ar-tryout",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "aframe": "^1.2.0",
+    "aframe-react": "^4.4.0",
+    "ar.js": "^2.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1",
     "react-web-ar": "^1.0.0-beta2",
-    "three": "^0.87.1"
+    "web-vitals": "^1.0.1",
+    "three": "0.87.1"
   },
   "scripts": {
     "start": "react-scripts start",
